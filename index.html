@@ -57,8 +57,6 @@
   <script src="./assets_files/tilda-slds-1.4.min.js" charset="utf-8" async=""></script>
   <script src="./assets_files/hammer.min.js" charset="utf-8" async=""></script>
   <script src="./assets_files/tilda-zoom-2.0.min.js" charset="utf-8" async=""></script>
-  <!-- <script src="./assets_files/tilda-forms-1.0.min.js" charset="utf-8" async=""></script> -->
-  <!-- <script src="./assets_files/tilda-zero-forms-1.0.min.js" charset="utf-8"></script> -->
   <script src="./assets_files/tilda-products-1.0.min.js" charset="utf-8" async=""></script>
   <script src="./assets_files/tilda-catalog-1.1.min.js" charset="utf-8" async=""></script>
 </head>
@@ -657,21 +655,21 @@
             data-field-formmsgsuccess-value="Спасибо за заявку!"
             data-field-receivers-value="edc03c108525b9ec1c6c8312b4739421,131884f26a4279a3281b1f0aba49eb29,6979a02b1bd419fea925d2e7bd52ee50,f716ccb1893e1be69dde869a54243b0b,5bc214060db3a1e8eb5134afdcba0aee"
             data-fields="width,top,left,inputs,container,axisx,axisy,widthunits,leftunits,topunits"
-            style="width: 460px; left: 222.5px; top: 503px;">
+            style="width: 300px; left: 27px; top: 255px;">
             <div class="tn-atom tn-atom__form">
               <form id="form256751827" name="form256751827" role="form" action="https://vast-wave-99082.herokuapp.com/send"
                 method="POST" data-formactiontype="2" data-inputbox=".t-input-group"
-                class="t-form js-form-proccess t-form_inputs-total_1  "
-                data-success-url="https://public.basstroy.com.ua/thankyou" data-success-callback="t396_onSuccess"
+                class="t-form js-form-proccess t-form_inputs-total_1"
+                data-success-callback="t396_onSuccess"
                 data-success-popup="y" data-error-popup="y">
                 <div class="js-successbox t-form__successbox t-text t-text_sm" style="display:none;">Спасибо за заявку!
                 </div>
                 <div class="t-form__inputsbox">
                   <div class="t-input-group t-input-group_ph" data-input-lid="1531306540094"
                     style="margin-bottom:20px;">
-                    <div class="t-input-block"><input type="tel" name="phone" class="t-input js-tilda-rule  " value=""
+                    <div class="t-input-block"><input type="tel" name="Phone" class="t-input js-tilda-rule  " value=""
                         placeholder="Номер телефона" data-tilda-rule="phone"
-                        style="color:#000; border:1px solid #000; background-color:#fff; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;font-size:16px;font-weight:400;height:50px;">
+                        style="color:#000; border:1px solid #000; background-color:#fff; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;font-size:16px;font-weight:400;height:45px;">
                       <div class="t-input-error"></div>
                     </div>
                   </div>
@@ -776,7 +774,7 @@
                     <script>$(".tn-atom .js-errorbox-close").click(function () { $(this).parent().css("display", "none"); });</script>
                   </div>
                   <div class="tn-form__submit"><button type="submit" class="t-submit"
-                      style="color:#000000;background-color:#ffe61c;border-radius:10px;font-weight:600;font-size:23px;width:500px;height:50px;padding:0 15px;display:block;">УЗНАТЬ
+                      style="color:#000000;background-color:#ffe61c;border-radius:10px;font-weight:600;font-size:23px;width:310px;height:60px;padding:0 15px;display:block;">УЗНАТЬ
                       ПОДРОБНЕЕ О БАССЕЙНЕ</button></div>
                 </div>
                 <div class="t-form__errorbox-bottom">
@@ -936,6 +934,7 @@
             </div>
             <!--/noindex-->
             <!--googleon: all-->
+            <script>$(document).ready(function () { jQuery.cachedScript = function (url) { var options = { dataType: "script", cache: true, url: url }; return jQuery.ajax(options); }; $.cachedScript("https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js").done(function (script, textStatus) { if (textStatus == 'success') { setTimeout(function () { var recid = '256751827'; var elemid = '1606906089051'; t_zeroForms__init(recid, elemid); }, 500); } else { console.log('Error init form in zeroblock. Err:' + textStatus); } }); });</script>
           </div>
           <div class="t396__elem tn-elem tn-elem__2567518271606907076689" data-elem-id="1606907076689"
             data-elem-type="image" data-field-top-value="110" data-field-top-res-320-value="215"
@@ -2662,8 +2661,7 @@
                 <div class="t-form__inputsbox">
                   <div class="t-input-group t-input-group_ph" data-input-lid="1495810359387">
                     <div class="t-input-block"> <input type="tel" autocomplete="tel" name="phone"
-                        class="t-input js-tilda-rule " value="" placeholder="Номер телефона" data-tilda-rule="phone"
-                        pattern="[0-9]*"
+                        class="t-input js-tilda-rule " value="" placeholder="Номер телефона"
                         style="color:#000000; border:1px solid #c9c9c9; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;">
                       <div class="t-input-error"></div>
                     </div>
@@ -2995,6 +2993,10 @@
           .t529 .t-review-social-links__wrapper_round .t-review-social-links__item svg {
             width: 17px;
             height: 17px;
+          }
+
+          .t396__elem.tn-elem.tn-elem__2567518271470210011265 .tn-atom {
+            font-size: 15px !important;
           }
         }
       </style>
